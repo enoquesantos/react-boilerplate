@@ -1,0 +1,19 @@
+{
+  "include": ["src"],
+  "exclude": ["src/main/test/cypress"],
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "types": ["@testing-library/jest-dom", "node"],
+    "allowJs": true,
+    "resolveJsonModule": true
+  }
+}
